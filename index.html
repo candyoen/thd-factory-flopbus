@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flopbus</title>
+</head>
+<body>
+    <header>
+        <h1>FlopBus: Tu viaje seguro, vayas donde vayas</h1>
+        <p><strong>El placer de viajar bien</strong></p>
+        <img src="img/logo.jpg" alt="logo de la empresa">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
+                <li><a href="mercados.html">Mercados</a></li>
+                <li><a href="it-ot.html">IT / OT</a></li>
+                <li><a href="informe.html">Informe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+            <!-- Sección: Quiénes somos y sector -->
+    <section>
+        <h2>Quiénes somos: Flopbus</h2>
+        <p>En <strong>Flopbus</strong> somos una empresa de consultoría e integración de Tecnologías Habilitadoras Digitales (THD) especializada de forma exclusiva en el sector de la <strong>Logística y el Transporte</strong>[cite: 1, 2]. 
+        Ayudamos a flotas de reparto, empresas de última milla y redes de distribución a modernizar sus operaciones y resolver los retos de eficiencia, trazabilidad y congestión urbana.</p>
+        
+        <p>Nuestro objetivo principal es transformar digitalmente los procesos de transporte tradicional para convertirlos en sistemas inteligentes, conectados y plenamente respetuosos con el medio ambiente.</p>
+    </section>
+
+    <!-- Sección: Misión, Visión y Valores -->
+    <section>
+        <h2>Misión, Visión y Valores</h2>
+        <h3>Misión</h3>
+        <p>Revolucionar la gestión logística mediante la integración inteligente de THD, optimizando cada ruta para reducir costes y tiempos de entrega.</p>
+        <h3>Visión</h3>
+        <p>Ser la consultora líder en la transición hacia un transporte de mercancías y pasajeros 100% digitalizado y neutro en carbono.</p>
+        <h3>Valores</h3>
+        <p>Eficiencia, innovación continua, rigor técnico y, como eje fundamental de nuestra identidad, la <strong>sostenibilidad ambiental</strong>.</p>
+    </section>
+    <!-- Sección: Lista de THD con enlaces al catálogo -->
+        <section>
+            <h2>Tecnologías Habilitadoras Digitales con las que trabajamos</h2>
+            <p>Trabajamos con soluciones punteras para garantizar la competitividad de nuestros clientes. Puedes consultar el detalle de cada una en nuestro <a href="catalogo.html">catálogo completo</a>:</p>
+            <ul>
+                <li><a href="catalogo.html#ciberseguridad">Ciberseguridad industrial</a></li>
+                <li><a href="catalogo.html#cloud">Computación en la nube (Cloud Computing)</a></li>
+                <li><a href="catalogo.html#iot">Internet de las Cosas (IoT)</a></li>
+                <li><a href="catalogo.html#gemelo">Gemelo Digital</a></li>
+                <li><a href="catalogo.html#ia">Inteligencia Artificial aplicada</a></li>
+                <li><a href="catalogo.html#impresion3d">Fabricación Aditiva (Tecnología Emergente)</a></li>
+            </ul>
+        </section>
+
+        <!--Lista ordenada industrias-->
+        <section>
+            <ol>
+                <li><strong>Industria 1.0:</strong> Mecanización inicial del transporte mediante la máquina de vapor, sustituyendo la tracción animal por ferrocarriles y primeros barcos de vapor.</li>
+                <li><strong>Industria 2.0:</strong> Producción en masa de vehículos de combustión interna, generalización de las cadenas de montaje en la automoción y expansión de las redes de carreteras.</li>
+                <li><strong>Industria 3.0:</strong> Automatización y digitalización parcial con la llegada de la informática, sistemas de gestión de flotas basados en ordenadores y primeras herramientas de control logístico.</li>
+                <li><strong>Industria 4.0:</strong> Conectividad total, flotas inteligentes interconectadas mediante IoT, sensores en tiempo real, gestión de rutas con inteligencia artificial y automatización de almacenes.</li>
+                <li><strong>Industria 5.0:</strong> Enfoque centrado en la ultra-personalización del servicio de transporte, la colaboración estrecha entre humanos y sistemas autónomos, y una transición radical hacia la sostenibilidad ambiental y la resiliencia urbana.</li>
+            </ol>
+            <p><em>¿Dónde situamos a Flopbus y por qué?</em> Situamos nuestra empresa a caballo entre la <strong>Industria 4.0 y la Industria 5.0</strong>, combinando la digitalización de flotas con un compromiso firme hacia la sostenibilidad ecológica.</p>
+        </section>
+        </section>
+        <section>
+            <form name="contacto" action="procesar.php" method="post">
+            <fieldset>
+                <legend>Datos</legend>
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" required placeholder="Ana Santos">
+                </div>
+                                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" required placeholder="usuario@correo.com">
+                </div>
+                <div>
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea name="comentarios" id="comentarios" cols="20" rows="5" required placeholder="Escribe aqui tu petición o comentario"></textarea>
+                     
+                </div>
+
+            </fieldset>
+                <div>
+                    <button type="submit"> Enviar mi solicitud</button>
+                    <button type="reset">Borrar formulario</button>
+                </div>
+                 </form>
+        </section>
+       
+    </main>
+    
+</body>
+</html>
